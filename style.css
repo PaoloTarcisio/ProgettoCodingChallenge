@@ -1,0 +1,72 @@
+body{
+    background-image: url(MaterialeEsercizioLim/background.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: 'Mohave', sans-serif;
+}
+
+.corpo{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto 20%;
+    padding: 5% 5%;
+    border-radius: 2%;
+}
+
+header{
+    color: rgb(100, 216, 65);
+}
+
+header > img{
+    width: 30%;
+}
+
+nav{
+    background-color: rgb(100, 216, 65);
+    padding: 1% 0%;
+}
+
+.pulsante{
+    margin: auto 0.5%;
+}
+
+main{
+    text-align: left;
+}
+
+main p{
+    margin: 0 0 ;
+}
+
+ul{
+    list-style: square;
+}
+
+li{
+    margin-bottom: 5%;
+}
+
+.distanza::before{
+    content: "\27FC";
+}
+
+.progressbar{
+    height: 25px;
+    border-radius: 5px;
+}
+
+.pb1{
+    background-color: red;
+    width: 50%;
+}
+
+.pb2{
+    background-color: blue;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.pb3{
+    background-color: yellow;
+    width: 70%;
+}
